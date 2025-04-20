@@ -1,0 +1,51 @@
+
+
+.block {
+  padding: 30px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.currencies {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.currencies li {
+  display: inline-flex;
+  padding: 10px 20px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.currencies li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.currencies li:last-of-type {
+  display: inline-flex;
+  align-items: center;
+  border-right: none;
+  padding: 0 10px;
+}
+
+.currencies li.active {
+  background-color: #16b67f;
+  color: #fff;
+}
+
+.block input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 20px;
+  letter-spacing: 1.3px;
+  outline: none;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 3px;
+}
